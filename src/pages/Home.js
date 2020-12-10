@@ -62,6 +62,8 @@ export class Home extends Component {
     render() {
         return (
       <body className="page">
+            {/* {process.env.REACT_APP_APP_URL} */}
+
           {/* <LoadAllJS /> */}
 
         <div>
