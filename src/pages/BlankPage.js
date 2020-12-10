@@ -61,13 +61,15 @@ export default class BlankPage extends Component {
 
                             {/* end .b-title-page*/}
                             <main>
+                            <div className="section-default bg-light">
                                 <h1>Hello World</h1>
+                            </div>
                             </main>
                             {/* ============FOOTER============ */}
                             <Footer />
                             {/* ============FOOTER============ */}
                     </div>
-                    
+
             </div>
             </body>
         )

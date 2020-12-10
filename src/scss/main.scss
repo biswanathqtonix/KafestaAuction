@@ -1,14 +1,7 @@
+$color1:#253241;
+$color2:white;
+
+@import "_navbar";
 @import "_breadCrumb";
 
-.yamm li a {
-    color: #3b0cf7 !important;
-    font-family: Montserrat;
-    font-size: 14px;
-    font-weight: 700;
-    padding-left: 12px;
-    padding-right: 12px;
-    text-transform: uppercase;
-    transition: all 0.3s ease-out;
-    -webkit-transition: all 0.3s ease-out;
-    -moz-transition: all 0.3s ease-out;
-}
+

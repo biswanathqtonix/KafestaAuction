@@ -4,6 +4,8 @@ import Navbar from '../includes/Navbar'
 import NavbarMobile from '../includes/NavbarMobile'
 import LoadAllJS from '../includes/LoadAllJS'
 import loadjs from 'loadjs';
+import Footer from '../includes/Footer'
+import BreadCrumb from '../includes/BreadCrumb'
 
 export class Login extends Component {
 
@@ -34,9 +36,51 @@ export class Login extends Component {
 
     render() {
         return (
-            <div>
-                <h2>Login</h2>
+            <body className="page">
+            {/* <LoadAllJS /> */}
+            {/* Loader*/}
+            {/* <div id="page-preloader"><span className="spinner border-t_second_b border-t_prim_a" /></div> */}
+            {/* Loader end*/}
+            <div className="l-theme animated-css animsition" data-header="sticky" data-header-top={200}>
+            {/* ============MOBILE NAV============ */}
+            <NavbarMobile />
+            {/* ============MOBILE NAV============ */}
+            <div data-canvas="container">
+            {/* ============HEADER============ */}
+            <Navbar />
+            {/* ============HEADER============ */}                               
+            <main>
+                                    
+                                    
+                                    
+            <div className="section-default bg-light">
+                <div className="container col-md-4">
+                        <center>
+                        <img class="normal-logo" src="assets/media/general/logo.png" alt="logo" />
+                        </center>
+                        <form className="mt-3 mb-5">
+                            <div className="form-group">
+                                <input class="form-control" id="user-name" type="text" name="user-name" placeholder="Your Name" required="required" />   
+                            </div>
+                            <div className="form-group">
+                                <input class="form-control" id="user-name" type="text" name="user-name" placeholder="Your Name" required="required" />
+                            </div>
+                            <button class="btn btn-primary btn-block">Login</button>
+                            
+                        </form>
+                </div>
+                
+
             </div>
+
+
+            </main>
+            {/* ============FOOTER============ */}
+            <Footer />
+            {/* ============FOOTER============ */}
+            </div>         
+            </div>
+            </body>
         )
     }
 }

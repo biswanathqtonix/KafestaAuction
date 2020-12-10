@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { connect } from 'react-redux'
-import {Link} from 'react-router-dom'
+import {NavLink} from 'react-router-dom'
 import LoadAllJS from '../includes/LoadAllJS'
 
 export class Navbar extends Component {
@@ -42,10 +42,13 @@ export class Navbar extends Component {
                     <ul className="yamm main-menu navbar-nav">
                       {/* <li className="nav-item active"><a className="nav-link" href="home.html">Home<span className="sr-only">(current)</span></a></li> */}
                       <li className="nav-item active">
-                        <Link className="nav-link" exact to='/'>Home</Link>
+                        <NavLink className="nav-link" activeClassName="auctn_active" exact to='/'>Home</NavLink>
                       </li>
                       <li className="nav-item active">
-                        <Link className="nav-link" exact to='/about'>About</Link>
+                        <NavLink className="nav-link" activeClassName="auctn_active" exact to='/about'>About</NavLink>
+                      </li>
+                      <li className="nav-item active">
+                        <NavLink className="nav-link" activeClassName="auctn_active" exact to='/login'>Login</NavLink>
                       </li>
                       {/* <li className="nav-item dropdown">
                         <a className="nav-link dropdown-toggle" id="navbarDropdown2" href="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Inventory</a>
