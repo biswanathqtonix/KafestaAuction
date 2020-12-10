@@ -47,7 +47,7 @@ export class Navbar extends Component {
                       <li className="nav-item active">
                         <Link className="nav-link" exact to='/about'>About</Link>
                       </li>
-                      <li className="nav-item dropdown">
+                      {/* <li className="nav-item dropdown">
                         <a className="nav-link dropdown-toggle" id="navbarDropdown2" href="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Inventory</a>
                         <div className="dropdown-menu" aria-labelledby="navbarDropdown2">
                           <a className="dropdown-item" href="inventory-list.html">Inventory list</a>
@@ -63,7 +63,7 @@ export class Navbar extends Component {
                       <li className="nav-item dropdown"><a className="nav-link dropdown-toggle" id="navbarDropdown4" href="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">News</a>
                         <div className="dropdown-menu" aria-labelledby="navbarDropdown4"><a className="dropdown-item" href="blog-main.html">Blog main</a><a className="dropdown-item" href="blog-post.html">Blog post</a></div>
                       </li>
-                      <li className="nav-item"><a className="nav-link" href="contacts.html">Contact</a></li>
+                      <li className="nav-item"><a className="nav-link" href="contacts.html">Contact</a></li> */}
                     </ul>
                   </nav>
                 </div>

@@ -11,3 +11,123 @@ git push -u origin main
 git remote add origin https://github.com/biswanathqtonix/KafestaAuction.git
 git branch -M main
 git push -u origin main
+
+
+****************************************************************************************************************************************
+****************************************************************************************************************************************
+****************************************************************************************************************************************
+>> update git--- git clone https://github.com/git/git
+------------------------------------------------------
+
+1-open your project folder ---> git init
+
+2-to check git status(which files are added or not) ---> git status
+
+3-we have to add that file ---> git add text.txt
+
+4-then check git status file is added or not ---> git status
+
+5-after adding a new file we have to commit that file with a message ---> git commit -m "initial commit(message)"
+
+6-then enter git status for check (nothing to commit working directory clean) --->git status
+---------------------------------------------------------------------------------------------
+
+===Branch=== 
+
+1-to create a new branch ---> git branch test  (test is new branch name)
+
+2-to check branch is added or not --->git branch
+
+3-change or move master branch to test --->git checkout test
+
+4-check the brach is switched or not --->git branch
+
+5- Then do chnages in your text file and save it --->git add .
+							and
+							git commit -m "chnages" 
+
+6- them master then test then master then change...  check yor text file will be changed.. 
+------------------------------------------------------------------------------------------
+
+
+=====combining test with master and delete test branch===
+
+1- check which branch is on right now so check --->git branch
+
+2-Then select your branch.
+
+3-to merge test to master ---> first go to master --> git checkout master
+			  ---> to merge ---> git merge test
+
+4-then delete the brach --->git branch test -d
+	Force to delete--->
+
+----------------------------
+
+===Create some files that people dnt want to see like password===
+
+1- create a text file .gitignore.txt using commandline
+
+2-opn this text file and type file or folder name that you want to ignore ---> /secrets
+									       /foldername
+									       password.txt
+
+3- the --->git add .
+	--->git commit -m "ddd"
+------------------------------git 
+
+===Upload file to git===
+ 
+1- --->git remote add origin https://github.com/biswanathprasadsingh9/myproject.git
+
+2- --->git push -u origin master
+
+3- --put username password if needed
+
+
+(if you want to chnage your local files and update to git)
+	--->add text
+	--->git add .
+	--->git commit -m "changes"
+	--->git status
+	--->git push -u origin master
+
+===Download project from git to my local computer===
+
+1-copy the linl(right side)
+
+2-create a folder and open terminal --->git clone https://github.com/biswanathprasadsingh9/myproject.git
+
+
+PROBLEMS
+<<<<<<<<<<<<<<<Github “Updates were rejected because the remote contains work that you do not have”>>>>>>>>>
+solver--git remote add origin [//your github url]
+
+//pull those changes
+
+git pull origin master
+
+//now, push your work to your new repo
+
+git push origin master
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+****************************************************************************************************************************************
+****************************************************************************************************************************************
+****************************************************************************************************************************************
+				
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
