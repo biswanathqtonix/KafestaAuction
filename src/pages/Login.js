@@ -54,23 +54,20 @@ export class Login extends Component {
                                     
                                     
             <div className="section-default bg-light">
-                <div className="container col-md-4">
-                        <center>
-                        <img class="normal-logo" src="assets/media/general/logo.png" alt="logo" />
-                        </center>
-                        <form className="mt-3 mb-5">
-                            <div className="form-group">
-                                <input class="form-control" id="user-name" type="text" name="user-name" placeholder="Your Name" required="required" />   
-                            </div>
-                            <div className="form-group">
-                                <input class="form-control" id="user-name" type="text" name="user-name" placeholder="Your Name" required="required" />
-                            </div>
-                            <button class="btn btn-primary btn-block">Login</button>
-                            
-                        </form>
+                <div className="container col-md-4 card">
+                    <center>
+                        <img class="normal-logo" src="assets/media/general/logo.png" className="mt-4" alt="logo" />
+                    </center>
+                    <form className="mt-3 mb-5">
+                        <div className="form-group">
+                            <input class="form-control" id="user-name" type="text" name="user-name" placeholder="email" required="required" />   
+                        </div>
+                        <div className="form-group">
+                            <input class="form-control" id="user-name" type="password" name="user-name" placeholder="password" required="required" />
+                        </div>
+                        <button class="btn btn-primary btn-block">Login</button>
+                    </form>
                 </div>
-                
-
             </div>
 
 
