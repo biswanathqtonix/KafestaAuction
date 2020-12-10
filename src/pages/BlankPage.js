@@ -19,8 +19,8 @@ export default class BlankPage extends Component {
         loadjs(process.env.REACT_APP_APP_URL+'assets/plugins/magnific-popup/jquery.magnific-popup.min.js', () => {});
         loadjs(process.env.REACT_APP_APP_URL+'assets/plugins/headers/slidebar.js', () => {});
         loadjs(process.env.REACT_APP_APP_URL+'assets/plugins/headers/header.js', () => {});
-        loadjs(process.env.REACT_APP_APP_URL+'assets/plugins/jqBootstrapValidation.js', () => {});
-        loadjs(process.env.REACT_APP_APP_URL+'assets/plugins/contact_me.js', () => {});
+        // loadjs(process.env.REACT_APP_APP_URL+'assets/plugins/jqBootstrapValidation.js', () => {});
+        // loadjs(process.env.REACT_APP_APP_URL+'assets/plugins/contact_me.js', () => {});
         loadjs(process.env.REACT_APP_APP_URL+'assets/plugins/flowplayer/flowplayer.min.js', () => {});
         loadjs(process.env.REACT_APP_APP_URL+'assets/plugins/isotope/isotope.pkgd.min.js', () => {});
         loadjs(process.env.REACT_APP_APP_URL+'assets/plugins/isotope/imagesLoaded.js', () => {});

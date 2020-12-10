@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { connect } from 'react-redux'
+
 import Navbar from '../includes/Navbar'
 import NavbarMobile from '../includes/NavbarMobile'
 import LoadAllJS from '../includes/LoadAllJS'
@@ -7,9 +8,7 @@ import loadjs from 'loadjs';
 import Footer from '../includes/Footer'
 import BreadCrumb from '../includes/BreadCrumb'
 
-import { FacebookLoginButton,GoogleLoginButton } from "react-social-login-buttons";
-
-export class Login extends Component {
+export class EmailVerify extends Component {
 
     // componentDidMount(){
     //     // loadjs('https://code.jquery.com/jquery-3.3.1.min.js', () => {});
@@ -58,24 +57,26 @@ export class Login extends Component {
             <div className="section-default bg-light auctn_mt-3">
                 <div className="container col-md-4 card">
                     <center>
-                        <img class="normal-logo" src="assets/media/general/logo.png" className="mt-4" alt="logo" />
+                        <img className="normal-logo" src="assets/media/general/logo.png" className="mt-4" alt="logo" />
                     </center>
-                    <form className="mt-3">
-                        <div className="form-group">
-                            <input class="form-control" id="user-name" type="text" name="user-name" placeholder="email" required="required" />   
-                        </div>
-                        <div className="form-group">
-                            <input class="form-control" id="user-name" type="password" name="user-name" placeholder="password" required="required" />
-                        </div>
-                        <button class="btn btn-primary btn-block auctn_mainbutton">Login</button>
-                    </form>
-                    <p className="text-primary mt-3">Forgot Password? <span className="float-right">Don't have an account?</span> </p>
-                
-                   
-                    <center><h6>OR</h6></center>
-                    
-                    <FacebookLoginButton onClick={() => alert("Hello")} />
-                    <GoogleLoginButton onClick={() => alert("Hello")} />
+                    <center className="mt-4">
+                        <h3>Please verify your email</h3>
+                        <p>We almost there! We sent an email to
+                            <br/>
+                            <b>test@email.com</b>
+                        </p>
+                        <p className="pl-4 pr-4">Just click the link in that email to complete the signup. If you don't see it, you may need to check your spam folder.</p>
+
+                        <p>Still can't find email? <br/>
+                        <button className="btn btn-primary btn-sm">Resend Email</button>
+                        </p>
+
+                        <p>Need Help? <span className="text-primary">Contact us</span></p>
+
+                    </center>
+
+
+
                     <div className="mt-4"></div>    
                 </div>
             </div>
@@ -100,4 +101,4 @@ const mapDispatchToProps = {
     
 }
 
-export default connect(mapStateToProps, mapDispatchToProps)(Login)
+export default connect(mapStateToProps, mapDispatchToProps)(EmailVerify)
