@@ -7,6 +7,8 @@ import loadjs from 'loadjs';
 import Footer from '../includes/Footer'
 import BreadCrumb from '../includes/BreadCrumb'
 
+import { FacebookLoginButton,GoogleLoginButton } from "react-social-login-buttons";
+
 export class Login extends Component {
 
     componentDidMount(){
@@ -53,20 +55,28 @@ export class Login extends Component {
                                     
                                     
                                     
-            <div className="section-default bg-light">
+            <div className="section-default bg-light auctn_mt-3">
                 <div className="container col-md-4 card">
                     <center>
                         <img class="normal-logo" src="assets/media/general/logo.png" className="mt-4" alt="logo" />
                     </center>
-                    <form className="mt-3 mb-5">
+                    <form className="mt-3">
                         <div className="form-group">
                             <input class="form-control" id="user-name" type="text" name="user-name" placeholder="email" required="required" />   
                         </div>
                         <div className="form-group">
                             <input class="form-control" id="user-name" type="password" name="user-name" placeholder="password" required="required" />
                         </div>
-                        <button class="btn btn-primary btn-block">Login</button>
+                        <button class="btn btn-primary btn-block auctn_mainbutton">Login</button>
                     </form>
+                    <p className="text-primary mt-3">Forgot Password? <span className="float-right">Don't have an account?</span> </p>
+                
+                   
+                    <center><h6>OR</h6></center>
+                    
+                    <FacebookLoginButton onClick={() => alert("Hello")} />
+                    <GoogleLoginButton onClick={() => alert("Hello")} />
+                    <div className="mt-4"></div>    
                 </div>
             </div>
 
