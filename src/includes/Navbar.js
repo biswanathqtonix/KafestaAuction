@@ -29,7 +29,7 @@ export class Navbar extends Component {
         // loadjs(process.env.REACT_APP_APP_URL+'assets/plugins/slider-pro/jquery.sliderPro.min.js', () => {});
         // loadjs(process.env.REACT_APP_APP_URL+'assets/plugins/slick/slick.js', () => {});
         // loadjs(process.env.REACT_APP_APP_URL+'assets/js/custom.js', () => {});
-        window.scrollTo(0,0);
+        // window.scrollTo(0,0);
     }
 
     render() {

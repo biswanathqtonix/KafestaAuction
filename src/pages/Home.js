@@ -10,7 +10,7 @@ import Footer from '../includes/Footer'
 export class Home extends Component {
     
     componentDidMount(){
-        // loadjs('https://code.jquery.com/jquery-3.3.1.min.js', () => {});
+        loadjs('https://code.jquery.com/jquery-3.3.1.min.js', () => {});
         // loadjs('https://code.jquery.com/jquery-migrate-1.4.1.min.js', () => {});
         loadjs('https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js', () => {});
         loadjs('https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js', () => {});
