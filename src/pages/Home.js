@@ -91,7 +91,7 @@ export class Home extends Component {
                     </div>
                 </div>
                 {/* end .main-slider*/}
-                <div className="section-area bg-light">
+                {/* <div className="section-area bg-light">
                     <div className="container">
                     <div className="row">
                         <div className="col-12">
@@ -245,7 +245,7 @@ export class Home extends Component {
                         </div>
                     </div>
                     </div>
-                </div>
+                </div> */}
                 {/* end .b-find*/}
                 <section className="b-welcome section-default">
                     <div className="container">
@@ -520,29 +520,7 @@ export class Home extends Component {
                     </div>
                     </div>
                 </section>
-                {/* end .b-bnr*/}
-                <div className="section-progress">
-                    <div className="container">
-                    <ul className="b-progress-list row list-unstyled">
-                        <li className="b-progress-list__item col-md-3">
-                        <div className="b-progress-list__wrap bg-light"><span className="b-progress-list__name">Vehicles Stock</span><span className="b-progress-list__percent js-chart" data-percent={3874}><span className="js-percent" /></span>
-                        </div>
-                        </li>
-                        <li className="b-progress-list__item col-md-3">
-                        <div className="b-progress-list__wrap bg-light"><span className="b-progress-list__name">dealers served</span><span className="b-progress-list__percent js-chart" data-percent={299}><span className="js-percent" /><span>+</span></span>
-                        </div>
-                        </li>
-                        <li className="b-progress-list__item col-md-3">
-                        <div className="b-progress-list__wrap bg-light"><span className="b-progress-list__name">Happy Customers</span><span className="b-progress-list__percent js-chart" data-percent={6403}><span className="js-percent" /></span>
-                        </div>
-                        </li>
-                        <li className="b-progress-list__item col-md-3">
-                        <div className="b-progress-list__wrap bg-light"><span className="b-progress-list__name">vehicles on sale</span><span className="b-progress-list__percent js-chart" data-percent={1450}><span className="js-percent" /><span>+</span></span>
-                        </div>
-                        </li>
-                    </ul>
-                    </div>
-                </div>
+                
                 {/* end .b-progress*/}
                 <section className="b-isotope section-default">
                     <div className="container">
@@ -745,54 +723,8 @@ export class Home extends Component {
                     </div>
                     </div>
                 </section>
-                {/* end .b-steps*/}
-                <section className="b-bnr-2 section-default">
-                    <div className="b-bnr-2__figure"><img className="b-bnr-2__img img-fluid" src="assets/media/content/b-bnr/1.png" alt="auto" /></div>
-                    <div className="container">
-                    <div className="row">
-                        <div className="col-md-6">
-                        <div className="b-bnr-2__section b-bnr-2__section_first bg-dark">
-                            <h2 className="b-bnr-2__title">Are you looking to<br />buy a new car?</h2><a className="b-bnr-2__link" href="#">Start searching our inventory that includes 2000+ cars</a>
-                        </div>
-                        </div>
-                        <div className="col-md-6">
-                        <div className="b-bnr-2__section b-bnr-2__section_second bg-primary">
-                            <div className="b-bnr-2__title">Are you looking to
-                            <br />sell your car?</div><a className="b-bnr-2__link" href="#">Add your vehicle to inventory &amp; reach 3k potential buyers</a>
-                        </div>
-                        </div>
-                    </div>
-                    </div>
-                </section>
-                {/* end .b-bnr*/}
-                <div className="section-goods-vip">
-                    <a className="b-goods-vip b-goods-vip_1" href="#">
-                    <div className="b-goods-vip__main"><span className="b-goods-vip__label b-goods-vip__label-1 bg-primary">NEW</span>
-                        <div className="b-goods-vip__title">AUDI Q2L (2019)</div>
-                        <div className="b-goods-vip__subtitle">LUXURTY APART -<span className="b-goods-vip__price"> $499/M</span></div>
-                        <ul className="b-goods-vip__list list-unstyled">
-                        <li className="b-goods-vip__list-item">2019</li>
-                        <li className="b-goods-vip__list-item">Manual</li>
-                        <li className="b-goods-vip__list-item">Petrol</li>
-                        <li className="b-goods-vip__list-item">661 hp</li>
-                        </ul>
-                    </div>
-                    </a>
-                    <a className="b-goods-vip b-goods-vip_2" href="#">
-                    <div className="b-goods-vip__main"><span className="b-goods-vip__label b-goods-vip__label-2 bg-primary">As Low As<strong className="b-goods-vip__label_b"> 1.5% APR</strong></span>
-                        <div className="b-goods-vip__subtitle">Off-Road King</div>
-                        <div className="b-goods-vip__title">JAGUAR I PACE</div>
-                        <div className="b-goods-vip__slogan">Limited Time Offer</div>
-                    </div>
-                    </a>
-                    <a className="b-goods-vip b-goods-vip_3" href="#">
-                    <div className="b-goods-vip__main">
-                        <div className="b-goods-vip__subtitle">2019 Models</div>
-                        <div className="b-goods-vip__title">All Brands Cars<span className="b-goods-vip__label b-goods-vip__label-3 bg-primary">MORE POWER</span></div>
-                        <div className="b-goods-vip__slogan">PREMIUM LUXURY</div>
-                    </div>
-                    </a>
-                </div>
+                
+               
                 {/* end .b-goods*/}
                 <section className="section-team section-default">
                     <div className="container">
@@ -876,146 +808,8 @@ export class Home extends Component {
                     </div>
                     </div>
                 </section>
-                {/* end .b-team*/}
-                <section className="section-reviews section-default parallax area-bg area-bg_dark">
-                    <div className="area-bg__inner">
-                    <div className="container-fluid">
-                        <div className="row">
-                        <div className="col-12">
-                            <div className="text-center">
-                            <div className="ui-title-slogan">Helps you to find perfect car</div>
-                            <h2 className="ui-title">Customer Reviews</h2><span className="section-reviews__decor">“</span>
-                            </div>
-                        </div>
-                        </div>
-                        <div className="row">
-                        <div className="col-12">
-                            <div className="b-reviews-slider js-slider" data-slick="{&quot;slidesToShow&quot;: 3,  &quot;slidesToScroll&quot;: 3, &quot;centerMode&quot;: true, &quot;arrows&quot;: false, &quot;dots&quot;: true, &quot;responsive&quot;: [{&quot;breakpoint&quot;: 1400, &quot;settings&quot;: {&quot;slidesToShow&quot;: 2, &quot;slidesToScroll&quot;: 2, &quot;centerMode&quot;: false}}, {&quot;breakpoint&quot;: 768, &quot;settings&quot;: {&quot;slidesToShow&quot;: 1, &quot;slidesToScroll&quot;: 1, &quot;centerMode&quot;: false}}]}">
-                            <div className="b-reviews">
-                                <blockquote className="b-reviews__blockquote">
-                                <div className="b-reviews__wrap">
-                                    <p>Norem ipsum dolor sit amet consectetur adipisicing elit aliqua. Ut enim ad minim veniam, quis nostrud exercita Duis aute irure dolor reprehenderit.</p>
-                                </div>
-                                <cite className="b-reviews__cite" title="Blockquote Title"><span className="b-reviews__inner"><span className="b-reviews__name">Alexa Cathy</span><span className="b-reviews__category">Customer</span></span><span className="b-reviews__author"><img className="img-fluid" src="assets/media/content/b-reviews/face-1.jpg" alt="foto" /></span></cite>
-                                </blockquote>
-                            </div>
-                            <div className="b-reviews">
-                                <blockquote className="b-reviews__blockquote">
-                                <div className="b-reviews__wrap">
-                                    <p>Norem ipsum dolor sit amet consectetur adipisicing elit aliqua uat enim ad minim veniam, quis nostrud exercita Duis aute irure dolor reprehenderit. Slyly babbled much partook this much in in thus the sauc.</p>
-                                </div>
-                                <cite className="b-reviews__cite" title="Blockquote Title"><span className="b-reviews__inner"><span className="b-reviews__name">Tina Olivia</span><span className="b-reviews__category">Customer</span></span><span className="b-reviews__author"><img className="img-fluid" src="assets/media/content/b-reviews/face-2.jpg" alt="foto" /></span></cite>
-                                </blockquote>
-                            </div>
-                            <div className="b-reviews">
-                                <blockquote className="b-reviews__blockquote">
-                                <div className="b-reviews__wrap">
-                                    <p>Norem ipsum dolor sit amet consectetur adipisicing elit aliqua. Ut enim ad minim veniam, quis nostrud exercita Duis aute irure dolor reprehenderit.</p>
-                                </div>
-                                <cite className="b-reviews__cite" title="Blockquote Title"><span className="b-reviews__inner"><span className="b-reviews__name">Alexa Cathy</span><span className="b-reviews__category">Customer</span></span><span className="b-reviews__author"><img className="img-fluid" src="assets/media/content/b-reviews/face-3.jpg" alt="foto" /></span></cite>
-                                </blockquote>
-                            </div>
-                            <div className="b-reviews">
-                                <blockquote className="b-reviews__blockquote">
-                                <div className="b-reviews__wrap">
-                                    <p>Norem ipsum dolor sit amet consectetur adipisicing elit aliqua. Ut enim ad minim veniam, quis nostrud exercita Duis aute irure dolor reprehenderit.</p>
-                                </div>
-                                <cite className="b-reviews__cite" title="Blockquote Title"><span className="b-reviews__inner"><span className="b-reviews__name">Alexa Cathy</span><span className="b-reviews__category">Customer</span></span><span className="b-reviews__author"><img className="img-fluid" src="assets/media/content/b-reviews/face-1.jpg" alt="foto" /></span></cite>
-                                </blockquote>
-                            </div>
-                            <div className="b-reviews">
-                                <blockquote className="b-reviews__blockquote">
-                                <div className="b-reviews__wrap">
-                                    <p>Norem ipsum dolor sit amet consectetur adipisicing elit aliqua uat enim ad minim veniam, quis nostrud exercita Duis aute irure dolor reprehenderit. Slyly babbled much partook this much in in thus the sauc.</p>
-                                </div>
-                                <cite className="b-reviews__cite" title="Blockquote Title"><span className="b-reviews__inner"><span className="b-reviews__name">Tina Olivia</span><span className="b-reviews__category">Customer</span></span><span className="b-reviews__author"><img className="img-fluid" src="assets/media/content/b-reviews/face-2.jpg" alt="foto" /></span></cite>
-                                </blockquote>
-                            </div>
-                            <div className="b-reviews">
-                                <blockquote className="b-reviews__blockquote">
-                                <div className="b-reviews__wrap">
-                                    <p>Norem ipsum dolor sit amet consectetur adipisicing elit aliqua. Ut enim ad minim veniam, quis nostrud exercita Duis aute irure dolor reprehenderit.</p>
-                                </div>
-                                <cite className="b-reviews__cite" title="Blockquote Title"><span className="b-reviews__inner"><span className="b-reviews__name">Alexa Cathy</span><span className="b-reviews__category">Customer</span></span><span className="b-reviews__author"><img className="img-fluid" src="assets/media/content/b-reviews/face-3.jpg" alt="foto" /></span></cite>
-                                </blockquote>
-                            </div>
-                            </div>
-                        </div>
-                        </div>
-                    </div>
-                    </div>
-                </section>
-                {/* end .b-reviews*/}
-                <section className="section-news section-default">
-                    <div className="container">
-                    <div className="row">
-                        <div className="col-12">
-                        <div className="text-center">
-                            <div className="ui-title-slogan">Helps you to find perfect car</div>
-                            <h2 className="ui-title">News &amp;<span className="text-primary"> Articles</span></h2>
-                        </div>
-                        </div>
-                    </div>
-                    <div className="b-post-group-2">
-                        <div className="row">
-                        <div className="col-md-4">
-                            <section className="b-post b-post-1 clearfix">
-                            <div className="entry-media">
-                                <a href="#"><img className="img-fluid" src="assets/media/content/b-posts/360x280/1.jpg" alt="Foto" /></a>
-                            </div>
-                            <div className="entry-main">
-                                <div className="entry-header">
-                                <div className="entry-meta"><span className="entry-meta__item"><a className="entry-meta__link" href="blog-main.html">25 DEC 2018</a></span><span className="entry-meta__item"><a className="entry-meta__link" href="blog-main.html">BY ADMIN</a></span></div>
-                                <h2 className="entry-title">Top 10 most Fuel-Efficient cars on the roads</h2>
-                                </div>
-                                <div className="entry-content">
-                                <p>Edipisicing eiusmod tempor incididunt labore dolore magna aliqa ust enim ad minim veniams quis nostrud citation ullam co laboris nisi ut aliquip.</p>
-                                </div>
-                                <div className="entry-footer"><a className="entry-link btn-link" href="#">READ article</a><span className="entry-views"><i className="ic icon-speech" /> 52</span></div>
-                            </div>
-                            </section>
-                            {/* end .post*/}
-                        </div>
-                        <div className="col-md-4">
-                            <section className="b-post b-post-1 clearfix">
-                            <div className="entry-media">
-                                <a href="#"><img className="img-fluid" src="assets/media/content/b-posts/360x280/2.jpg" alt="Foto" /></a>
-                            </div>
-                            <div className="entry-main">
-                                <div className="entry-header">
-                                <div className="entry-meta"><span className="entry-meta__item"><a className="entry-meta__link" href="blog-main.html">25 DEC 2018</a></span><span className="entry-meta__item"><a className="entry-meta__link" href="blog-main.html">BY ADMIN</a></span></div>
-                                <h2 className="entry-title">How to increase Auto Sales: A Dealers’ Guide</h2>
-                                </div>
-                                <div className="entry-content">
-                                <p>Edipisicing eiusmod tempor incididunt labore dolore magna aliqa ust enim ad minim veniams quis nostrud citation ullam co laboris nisi ut aliquip.</p>
-                                </div>
-                                <div className="entry-footer"><a className="entry-link btn-link" href="#">READ article</a><span className="entry-views"><i className="ic icon-speech" /> 52</span></div>
-                            </div>
-                            </section>
-                            {/* end .post*/}
-                        </div>
-                        <div className="col-md-4">
-                            <section className="b-post b-post-1 clearfix">
-                            <div className="entry-media">
-                                <a href="#"><img className="img-fluid" src="assets/media/content/b-posts/360x280/3.jpg" alt="Foto" /></a>
-                            </div>
-                            <div className="entry-main">
-                                <div className="entry-header">
-                                <div className="entry-meta"><span className="entry-meta__item"><a className="entry-meta__link" href="blog-main.html">25 DEC 2018</a></span><span className="entry-meta__item"><a className="entry-meta__link" href="blog-main.html">BY ADMIN</a></span></div>
-                                <h2 className="entry-title">We have vehicle with safety checks and licensed</h2>
-                                </div>
-                                <div className="entry-content">
-                                <p>Edipisicing eiusmod tempor incididunt labore dolore magna aliqa ust enim ad minim veniams quis nostrud citation ullam co laboris nisi ut aliquip.</p>
-                                </div>
-                                <div className="entry-footer"><a className="entry-link btn-link" href="#">READ article</a><span className="entry-views"><i className="ic icon-speech" /> 52</span></div>
-                            </div>
-                            </section>
-                            {/* end .post*/}
-                        </div>
-                        </div>
-                    </div>
-                    </div>
-                </section>
+                
+                
                 <section className="b-bnr-3 bg-dark">
                     <div className="container">
                     <div className="row">
@@ -1027,7 +821,7 @@ export class Home extends Component {
                     </div>
                 </section>
                 {/* end .b-bnr*/}
-                <div className="b-gallery js-slider" data-slick="{&quot;slidesToShow&quot;: 8, &quot;arrows&quot;: false, &quot;autoplay&quot;: true,  &quot;slidesToScroll&quot;: 1, &quot;responsive&quot;: [{&quot;breakpoint&quot;: 1400, &quot;settings&quot;: {&quot;slidesToShow&quot;: 6, &quot;slidesToScroll&quot;: 3}}, {&quot;breakpoint&quot;: 768, &quot;settings&quot;: {&quot;slidesToShow&quot;: 3, &quot;slidesToScroll&quot;: 1}}]}">
+                {/* <div className="b-gallery js-slider" data-slick="{&quot;slidesToShow&quot;: 8, &quot;arrows&quot;: false, &quot;autoplay&quot;: true,  &quot;slidesToScroll&quot;: 1, &quot;responsive&quot;: [{&quot;breakpoint&quot;: 1400, &quot;settings&quot;: {&quot;slidesToShow&quot;: 6, &quot;slidesToScroll&quot;: 3}}, {&quot;breakpoint&quot;: 768, &quot;settings&quot;: {&quot;slidesToShow&quot;: 3, &quot;slidesToScroll&quot;: 1}}]}">
                     <div className="b-gallery__item"><img className="img-fluid" src="assets/media/content/b-gallery/240x200/1.jpg" alt="foto" /></div>
                     <div className="b-gallery__item"><img className="img-fluid" src="assets/media/content/b-gallery/240x200/2.jpg" alt="foto" /></div>
                     <div className="b-gallery__item"><img className="img-fluid" src="assets/media/content/b-gallery/240x200/3.jpg" alt="foto" /></div>
@@ -1044,7 +838,7 @@ export class Home extends Component {
                     <div className="b-gallery__item"><img className="img-fluid" src="assets/media/content/b-gallery/240x200/6.jpg" alt="foto" /></div>
                     <div className="b-gallery__item"><img className="img-fluid" src="assets/media/content/b-gallery/240x200/7.jpg" alt="foto" /></div>
                     <div className="b-gallery__item"><img className="img-fluid" src="assets/media/content/b-gallery/240x200/8.jpg" alt="foto" /></div>
-                </div>
+                </div> */}
                 {/* ============FOOTER============ */}
                 <Footer />
                 {/* ============FOOTER============ */}
