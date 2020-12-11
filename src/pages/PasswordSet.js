@@ -8,10 +8,7 @@ import loadjs from 'loadjs';
 import Footer from '../includes/Footer'
 import BreadCrumb from '../includes/BreadCrumb'
 
-import { FacebookLoginButton,GoogleLoginButton } from "react-social-login-buttons";
-
-
-export class Register extends Component {
+export class PasswordSet extends Component {
 
     componentDidMount(){
         // loadjs('https://code.jquery.com/jquery-3.3.1.min.js', () => {});
@@ -62,43 +59,21 @@ export class Register extends Component {
                     <center>
                         <img className="normal-logo" src="assets/media/general/logo.png" className="mt-4" alt="logo" />
                     </center>
-                    <form className="mt-3">
-                        <div className="form-group">
-                            <input className="form-control" id="user-name" type="text" name="user-name" placeholder="email" required="required" />   
-                        </div>
-                        <div className="form-group">
-                            <input className="form-control" id="user-name" type="text" name="user-name" placeholder="name" required="required" />   
-                        </div>
-                        <div className="form-group">
-                            <input className="form-control" id="user-name" type="text" name="user-name" placeholder="contact" required="required" />   
-                        </div>
-                        <div className="form-group">
-                            <select className="form-control">
-                            <option>Select Country</option>
-                            <option>2</option>
-                            <option>3</option>
-                            <option>4</option>
-                            <option>5</option>
-                            </select>
-                        </div>
-                        <div className="form-group">
-                            <input className="form-control" id="user-name" type="password" name="user-name" placeholder="password" required="required" />
-                        </div>
-                        <div className="form-group form-check">
-                            <input className="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" />
-                            <label className="form-check-label" for="exampleRadios1">
-                                I agree all statements in <span className="text-primary">Terms of service</span>
-                            </label>
-                        </div>
-                        <button className="btn btn-primary btn-block auctn_mainbutton">Login</button>
-                    </form>
-                    <p className="mt-3">Have already an account? <span className="text-primary ">Register</span> </p>
-                
-                   
-                    <center><h6>OR</h6></center>
-                    
-                    <FacebookLoginButton onClick={() => alert("Hello")} />
-                    <GoogleLoginButton onClick={() => alert("Hello")} />
+                    <center className="mt-4">
+                        <h3>Change your password</h3>
+                        <p className="pl-3 pr-3">Use at least 8 characters. Choose a longer password for better security.
+                        </p>
+                        <form className="mt-1">
+                            <div className="form-group">
+                                <input class="form-control" id="user-name" type="password" name="user-name" placeholder="New Password" required="required" />   
+                            </div>
+                            <div className="form-group">
+                                <input class="form-control" id="user-name" type="password" name="user-name" placeholder="Confirm New Password" required="required" />   
+                            </div>
+                            <button class="btn btn-primary btn-block auctn_mainbutton">Continue</button>
+                        </form>
+                        <p className="mt-3">Need Help? <span className="text-primary">Contact us</span></p>
+                    </center>
                     <div className="mt-4"></div>    
                 </div>
             </div>
@@ -123,4 +98,4 @@ const mapDispatchToProps = {
     
 }
 
-export default connect(mapStateToProps, mapDispatchToProps)(Register)
+export default connect(mapStateToProps, mapDispatchToProps)(PasswordSet)

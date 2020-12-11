@@ -12,6 +12,8 @@ import About from './pages/About'
 import Login from './pages/Login'
 import Register from './pages/Register'
 import EmailVerify from './pages/EmailVerify'
+import PasswordReset from './pages/PasswordReset'
+import PasswordSet from './pages/PasswordSet'
 
 import BlankPage from './pages/BlankPage'
 
@@ -27,9 +29,10 @@ export default class App extends Component {
             <Route exact path='/login' component={Login} />
             <Route exact path='/register' component={Register} />
             <Route exact path='/verify' component={EmailVerify} />
+            <Route exact path='/passwordreset' component={PasswordReset} />
+            <Route exact path='/newpassword' component={PasswordSet} />
 
 
-            
 
             <Route exact path='/blank' component={BlankPage} />
         </Switch>

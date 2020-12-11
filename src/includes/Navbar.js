@@ -7,30 +7,30 @@ import loadjs from 'loadjs';
 
 export class Navbar extends Component {
 
-  componentDidMount(){
-        // loadjs('https://code.jquery.com/jquery-3.3.1.min.js', () => {});
-        // loadjs('https://code.jquery.com/jquery-migrate-1.4.1.min.js', () => {});
-        loadjs('https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js', () => {});
-        loadjs('https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js', () => {});
-        loadjs(process.env.REACT_APP_APP_URL+'assets/plugins/switcher/js/dmss.js', () => {});
-        loadjs(process.env.REACT_APP_APP_URL+'assets/libs/bootstrap-select.min.js', () => {});
-        loadjs(process.env.REACT_APP_APP_URL+'assets/plugins/magnific-popup/jquery.magnific-popup.min.js', () => {});
-        loadjs(process.env.REACT_APP_APP_URL+'assets/plugins/headers/slidebar.js', () => {});
-        loadjs(process.env.REACT_APP_APP_URL+'assets/plugins/headers/header.js', () => {});
-        // loadjs(process.env.REACT_APP_APP_URL+'assets/plugins/jqBootstrapValidation.js', () => {});
-        // loadjs(process.env.REACT_APP_APP_URL+'assets/plugins/contact_me.js', () => {});
-        loadjs(process.env.REACT_APP_APP_URL+'assets/plugins/flowplayer/flowplayer.min.js', () => {});
-        loadjs(process.env.REACT_APP_APP_URL+'assets/plugins/isotope/isotope.pkgd.min.js', () => {});
-        loadjs(process.env.REACT_APP_APP_URL+'assets/plugins/isotope/imagesLoaded.js', () => {});
-        // loadjs(process.env.REACT_APP_APP_URL+'assets/plugins/rendro-easy-pie-chart/jquery.easypiechart.min.js', () => {});
-        // loadjs(process.env.REACT_APP_APP_URL+'assets/plugins/rendro-easy-pie-chart/jquery.waypoints.min.js', () => {});
-        loadjs(process.env.REACT_APP_APP_URL+'assets/plugins/scrollreveal/scrollreveal.min.js', () => {});
-        loadjs(process.env.REACT_APP_APP_URL+'assets/plugins/ofi.min.js', () => {});
-        loadjs(process.env.REACT_APP_APP_URL+'assets/plugins/slider-pro/jquery.sliderPro.min.js', () => {});
-        loadjs(process.env.REACT_APP_APP_URL+'assets/plugins/slick/slick.js', () => {});
-        loadjs(process.env.REACT_APP_APP_URL+'assets/js/custom.js', () => {});
-        window.scrollTo(0,0);
-    }
+  // componentDidMount(){
+  //       // loadjs('https://code.jquery.com/jquery-3.3.1.min.js', () => {});
+  //       // loadjs('https://code.jquery.com/jquery-migrate-1.4.1.min.js', () => {});
+  //       loadjs('https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js', () => {});
+  //       loadjs('https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js', () => {});
+  //       loadjs(process.env.REACT_APP_APP_URL+'assets/plugins/switcher/js/dmss.js', () => {});
+  //       loadjs(process.env.REACT_APP_APP_URL+'assets/libs/bootstrap-select.min.js', () => {});
+  //       loadjs(process.env.REACT_APP_APP_URL+'assets/plugins/magnific-popup/jquery.magnific-popup.min.js', () => {});
+  //       loadjs(process.env.REACT_APP_APP_URL+'assets/plugins/headers/slidebar.js', () => {});
+  //       loadjs(process.env.REACT_APP_APP_URL+'assets/plugins/headers/header.js', () => {});
+  //       // loadjs(process.env.REACT_APP_APP_URL+'assets/plugins/jqBootstrapValidation.js', () => {});
+  //       // loadjs(process.env.REACT_APP_APP_URL+'assets/plugins/contact_me.js', () => {});
+  //       loadjs(process.env.REACT_APP_APP_URL+'assets/plugins/flowplayer/flowplayer.min.js', () => {});
+  //       loadjs(process.env.REACT_APP_APP_URL+'assets/plugins/isotope/isotope.pkgd.min.js', () => {});
+  //       loadjs(process.env.REACT_APP_APP_URL+'assets/plugins/isotope/imagesLoaded.js', () => {});
+  //       // loadjs(process.env.REACT_APP_APP_URL+'assets/plugins/rendro-easy-pie-chart/jquery.easypiechart.min.js', () => {});
+  //       // loadjs(process.env.REACT_APP_APP_URL+'assets/plugins/rendro-easy-pie-chart/jquery.waypoints.min.js', () => {});
+  //       loadjs(process.env.REACT_APP_APP_URL+'assets/plugins/scrollreveal/scrollreveal.min.js', () => {});
+  //       loadjs(process.env.REACT_APP_APP_URL+'assets/plugins/ofi.min.js', () => {});
+  //       loadjs(process.env.REACT_APP_APP_URL+'assets/plugins/slider-pro/jquery.sliderPro.min.js', () => {});
+  //       loadjs(process.env.REACT_APP_APP_URL+'assets/plugins/slick/slick.js', () => {});
+  //       loadjs(process.env.REACT_APP_APP_URL+'assets/js/custom.js', () => {});
+  //       window.scrollTo(0,0);
+  //   }
 
     render() {
         return (
@@ -80,20 +80,36 @@ export class Navbar extends Component {
                       <li className="nav-item active">
                         <NavLink className="nav-link" activeClassName="auctn_active" exact to='/register'>Register</NavLink>
                       </li>
-                      <li className="nav-item active">
+                      {/* <li className="nav-item active">
                         <NavLink className="nav-link" activeClassName="auctn_active" exact to='/verify'>Email Verify</NavLink>
                       </li>
+                      <li className="nav-item active">
+                        <NavLink className="nav-link" activeClassName="auctn_active" exact to='/passwordreset'>PasswordReset</NavLink>
+                      </li>
+                      <li className="nav-item active">
+                        <NavLink className="nav-link" activeClassName="auctn_active" exact to='/newpassword'>NewPassword</NavLink>
+                      </li>           */}
+
                       
-                      {/* <li className="nav-item dropdown">
-                        <a className="nav-link dropdown-toggle" id="navbarDropdown2" href="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Inventory</a>
+                       <li className="nav-item dropdown">
+                        <a className="nav-link dropdown-toggle" id="navbarDropdown2" href="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Pages</a>
                         <div className="dropdown-menu" aria-labelledby="navbarDropdown2">
+                        <NavLink className="dropdown-item" activeClassName="auctn_active" exact to='/verify'>Email Verify</NavLink>
+                        <NavLink className="dropdown-item" activeClassName="auctn_active" exact to='/passwordreset'>PasswordReset</NavLink>
+                        <NavLink className="dropdown-item" activeClassName="auctn_active" exact to='/newpassword'>NewPassword</NavLink>
+
+
+{/* 
                           <a className="dropdown-item" href="inventory-list.html">Inventory list</a>
                           <a className="dropdown-item" href="inventory-grid.html">Inventory grid</a>
                           <a className="dropdown-item" href="vehicle-details.html">Vehicle details</a>
                           <a className="dropdown-item" href="dealers.html">Dealers list</a>
-                          <a className="dropdown-item" href="dealers-info.html">Dealers info</a></div>
+                          <a className="dropdown-item" href="dealers-info.html">Dealers info</a> */}
+                          </div>
                       </li>
-                      <li className="nav-item"><a className="nav-link" href="about.html">About</a></li>
+
+
+                      {/*<li className="nav-item"><a className="nav-link" href="about.html">About</a></li>
                       <li className="nav-item dropdown"><a className="nav-link dropdown-toggle" id="navbarDropdown1" href="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Pages</a>
                         <div className="dropdown-menu" aria-labelledby="navbarDropdown1"><a className="dropdown-item" href="typography.html">Typography</a></div>
                       </li>
