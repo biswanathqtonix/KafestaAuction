@@ -37,39 +37,18 @@ export default class BlankPage extends Component {
     render() {
         return (
             <body className="page">
-            {/* <LoadAllJS /> */}
-
-            {/* Loader*/}
-            {/* <div id="page-preloader"><span className="spinner border-t_second_b border-t_prim_a" /></div> */}
-            {/* Loader end*/}
             <div className="l-theme animated-css animsition" data-header="sticky" data-header-top={200}>
-                
-
-                {/* ============MOBILE NAV============ */}
-                <NavbarMobile />
-                {/* ============MOBILE NAV============ */}
-
-                    <div data-canvas="container">
-                            {/* ============HEADER============ */}
-                            <Navbar />
-                            {/* ============HEADER============ */}
-
-                            {/* ============BreadCrumb============ */}
-                            <BreadCrumb pageName="Blank Page" />
-                            {/* ============BreadCrumb============ */}
-
-
-                            {/* end .b-title-page*/}
-                            <main>
-                            <div className="section-default bg-light">
-                                <h1>Hello World</h1>
-                            </div>
-                            </main>
-                            {/* ============FOOTER============ */}
-                            <Footer />
-                            {/* ============FOOTER============ */}
+            <NavbarMobile />
+            <div data-canvas="container">
+            <Navbar />
+            <BreadCrumb pageName="Blank Page" />
+                <main>
+                    <div className="section-default bg-light">
+                        <h1>Hello World</h1>
                     </div>
-
+                </main>
+            <Footer />
+            </div>
             </div>
             </body>
         )

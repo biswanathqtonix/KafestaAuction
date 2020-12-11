@@ -823,25 +823,6 @@ export class Home extends Component {
                     </div>
                     </div>
                 </section>
-                {/* end .b-bnr*/}
-                {/* <div className="b-gallery js-slider" data-slick="{&quot;slidesToShow&quot;: 8, &quot;arrows&quot;: false, &quot;autoplay&quot;: true,  &quot;slidesToScroll&quot;: 1, &quot;responsive&quot;: [{&quot;breakpoint&quot;: 1400, &quot;settings&quot;: {&quot;slidesToShow&quot;: 6, &quot;slidesToScroll&quot;: 3}}, {&quot;breakpoint&quot;: 768, &quot;settings&quot;: {&quot;slidesToShow&quot;: 3, &quot;slidesToScroll&quot;: 1}}]}">
-                    <div className="b-gallery__item"><img className="img-fluid" src="assets/media/content/b-gallery/240x200/1.jpg" alt="foto" /></div>
-                    <div className="b-gallery__item"><img className="img-fluid" src="assets/media/content/b-gallery/240x200/2.jpg" alt="foto" /></div>
-                    <div className="b-gallery__item"><img className="img-fluid" src="assets/media/content/b-gallery/240x200/3.jpg" alt="foto" /></div>
-                    <div className="b-gallery__item"><img className="img-fluid" src="assets/media/content/b-gallery/240x200/4.jpg" alt="foto" /></div>
-                    <div className="b-gallery__item"><img className="img-fluid" src="assets/media/content/b-gallery/240x200/5.jpg" alt="foto" /></div>
-                    <div className="b-gallery__item"><img className="img-fluid" src="assets/media/content/b-gallery/240x200/6.jpg" alt="foto" /></div>
-                    <div className="b-gallery__item"><img className="img-fluid" src="assets/media/content/b-gallery/240x200/7.jpg" alt="foto" /></div>
-                    <div className="b-gallery__item"><img className="img-fluid" src="assets/media/content/b-gallery/240x200/8.jpg" alt="foto" /></div>
-                    <div className="b-gallery__item"><img className="img-fluid" src="assets/media/content/b-gallery/240x200/1.jpg" alt="foto" /></div>
-                    <div className="b-gallery__item"><img className="img-fluid" src="assets/media/content/b-gallery/240x200/2.jpg" alt="foto" /></div>
-                    <div className="b-gallery__item"><img className="img-fluid" src="assets/media/content/b-gallery/240x200/3.jpg" alt="foto" /></div>
-                    <div className="b-gallery__item"><img className="img-fluid" src="assets/media/content/b-gallery/240x200/4.jpg" alt="foto" /></div>
-                    <div className="b-gallery__item"><img className="img-fluid" src="assets/media/content/b-gallery/240x200/5.jpg" alt="foto" /></div>
-                    <div className="b-gallery__item"><img className="img-fluid" src="assets/media/content/b-gallery/240x200/6.jpg" alt="foto" /></div>
-                    <div className="b-gallery__item"><img className="img-fluid" src="assets/media/content/b-gallery/240x200/7.jpg" alt="foto" /></div>
-                    <div className="b-gallery__item"><img className="img-fluid" src="assets/media/content/b-gallery/240x200/8.jpg" alt="foto" /></div>
-                </div> */}
                 {/* ============FOOTER============ */}
                 <Footer />
                 {/* ============FOOTER============ */}

@@ -1,0 +1,82 @@
+.auctn{
+
+    &_attentn{
+        font-size: 16px;
+        color: $color3;
+        font-weight: 600;
+    }
+
+    &_upload{
+        &_box{
+            width: 100%;
+            height: 250px;
+            background: #f4f4f4;
+            text-align: center;
+
+            p{
+                padding-top: 75px;
+                width: 100%;
+                color: #ccc;
+
+                img{
+                    display: block;
+                    margin: 0 auto 15px;
+                    width: 100px;
+                }
+            }
+        }
+    }
+
+    &_account{
+        &_font1{
+            margin-top: 27px !important;
+        }
+        &_shead{
+
+        }
+        &_shead span{
+            color: brown;
+            font-size: 13px;
+        }
+
+        &_box1{
+            padding: 15px 20px;
+            border: 5px solid #e4e4e4;
+
+            p{
+                margin: 10px 0 10px 15px;
+                font-size: 15px;
+            }
+        }
+
+        &_membershipbox{
+            background-color: #253241;
+            color: white;
+            padding: 2rem 1rem;
+            margin: 0rem;
+        }
+
+        &_membershipbox1{
+             img{
+                height: 36px;
+                margin-bottom: 16px;
+            
+             }
+        }
+    }
+
+
+
+    &_plan_h{
+        font-weight: 600;
+    font-size: 21px;
+    font-family: 'Lato';
+    margin-bottom: 2rem;
+    }
+    &_plan_s{
+        font-weight: 600;
+    font-size: 15px;
+    font-family: 'Lato';
+    margin-top: .5rem;
+    }
+}

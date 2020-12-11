@@ -15,6 +15,10 @@ import EmailVerify from './pages/EmailVerify'
 import PasswordReset from './pages/PasswordReset'
 import PasswordSet from './pages/PasswordSet'
 
+import Account from './pages/User/Account'
+import MembershipStatus from './pages/User/MembershipStatus'
+import UploadInfo from './pages/User/UploadInfo'
+
 import BlankPage from './pages/BlankPage'
 
 export default class App extends Component {
@@ -32,7 +36,11 @@ export default class App extends Component {
             <Route exact path='/passwordreset' component={PasswordReset} />
             <Route exact path='/newpassword' component={PasswordSet} />
 
+            <Route exact path='/account' component={Account} />
+            <Route exact path='/account/membership' component={MembershipStatus} />
+            <Route exact path='/account/upload' component={UploadInfo} />
 
+            
 
             <Route exact path='/blank' component={BlankPage} />
         </Switch>

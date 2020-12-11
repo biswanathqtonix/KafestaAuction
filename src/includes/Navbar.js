@@ -80,34 +80,30 @@ export class Navbar extends Component {
                       <li className="nav-item active">
                         <NavLink className="nav-link" activeClassName="auctn_active" exact to='/register'>Register</NavLink>
                       </li>
-                      {/* <li className="nav-item active">
-                        <NavLink className="nav-link" activeClassName="auctn_active" exact to='/verify'>Email Verify</NavLink>
-                      </li>
-                      <li className="nav-item active">
-                        <NavLink className="nav-link" activeClassName="auctn_active" exact to='/passwordreset'>PasswordReset</NavLink>
-                      </li>
-                      <li className="nav-item active">
-                        <NavLink className="nav-link" activeClassName="auctn_active" exact to='/newpassword'>NewPassword</NavLink>
-                      </li>           */}
+                      
 
                       
-                       <li className="nav-item dropdown">
+                      <li className="nav-item dropdown">
                         <a className="nav-link dropdown-toggle" id="navbarDropdown2" href="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Pages</a>
                         <div className="dropdown-menu" aria-labelledby="navbarDropdown2">
-                        <NavLink className="dropdown-item" activeClassName="auctn_active" exact to='/verify'>Email Verify</NavLink>
-                        <NavLink className="dropdown-item" activeClassName="auctn_active" exact to='/passwordreset'>PasswordReset</NavLink>
-                        <NavLink className="dropdown-item" activeClassName="auctn_active" exact to='/newpassword'>NewPassword</NavLink>
-
-
-{/* 
-                          <a className="dropdown-item" href="inventory-list.html">Inventory list</a>
-                          <a className="dropdown-item" href="inventory-grid.html">Inventory grid</a>
-                          <a className="dropdown-item" href="vehicle-details.html">Vehicle details</a>
-                          <a className="dropdown-item" href="dealers.html">Dealers list</a>
-                          <a className="dropdown-item" href="dealers-info.html">Dealers info</a> */}
-                          </div>
+                          <NavLink className="dropdown-item" activeClassName="auctn_active" exact to='/verify'>Email Verify</NavLink>
+                          <NavLink className="dropdown-item" activeClassName="auctn_active" exact to='/passwordreset'>PasswordReset</NavLink>
+                          <NavLink className="dropdown-item" activeClassName="auctn_active" exact to='/newpassword'>NewPassword</NavLink>
+                        </div>
                       </li>
 
+                      <li className="nav-item dropdown">
+                        <a className="nav-link dropdown-toggle" id="navbarDropdown3" href="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Account</a>
+                        <div className="dropdown-menu" aria-labelledby="navbarDropdown3">
+                          <NavLink className="dropdown-item" activeClassName="auctn_active" exact to='/account'>Account</NavLink>
+                          <NavLink className="dropdown-item" activeClassName="auctn_active" exact to='/account/membership'>Membership</NavLink>
+                          <NavLink className="dropdown-item" activeClassName="auctn_active" exact to='/account/upload'>UploadID</NavLink>
+
+
+                          {/* <NavLink className="dropdown-item" activeClassName="auctn_active" exact to='/passwordreset'>PasswordReset</NavLink>
+                          <NavLink className="dropdown-item" activeClassName="auctn_active" exact to='/newpassword'>NewPassword</NavLink> */}
+                        </div>
+                      </li>
 
                       {/*<li className="nav-item"><a className="nav-link" href="about.html">About</a></li>
                       <li className="nav-item dropdown"><a className="nav-link dropdown-toggle" id="navbarDropdown1" href="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Pages</a>

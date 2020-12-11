@@ -3,4 +3,19 @@
         background-color: $color1;
         border: none;
     }
+    &_btn2{
+        padding: 8px 20px;
+    background: #ccc;
+    font-size: 12px;
+    color: #fff;
+    background: $color3;
+    }
+    &_btn3{
+        padding: 8px 20px;
+    background: #ccc;
+    font-size: 12px;
+    color: #fff;
+    }
+
+  
 }
