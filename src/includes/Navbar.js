@@ -56,7 +56,7 @@ export class Navbar extends Component {
             <div className="container">
               <div className="row align-items-center">
                 <div className="col-lg-2 col-auto">
-                  <a className="navbar-brand scroll" href="home.html"><img className="normal-logo" src="assets/media/general/logo.png" alt="logo" /></a>
+                  <a className="navbar-brand scroll" href="home.html"><img className="normal-logo" src="/assets/media/general/logo.png" alt="logo" /></a>
                 </div>
                 <div className="col-lg-auto col">
                   <div className="header-contacts d-none d-md-block d-lg-none d-xl-block"><i className="ic text-primary icon-call-in" /><span className="header-contacts__inner">Call Us Today!<a className="header-contacts__number" href="tel:+17553028549">+1 755 302 8549</a></span></div>
@@ -98,6 +98,7 @@ export class Navbar extends Component {
                           <NavLink className="dropdown-item" activeClassName="auctn_active" exact to='/account'>Account</NavLink>
                           <NavLink className="dropdown-item" activeClassName="auctn_active" exact to='/account/membership'>Membership</NavLink>
                           <NavLink className="dropdown-item" activeClassName="auctn_active" exact to='/account/upload'>UploadID</NavLink>
+                          <NavLink className="dropdown-item" activeClassName="auctn_active" exact to='/account/deposit'>Deposit</NavLink>
 
 
                           {/* <NavLink className="dropdown-item" activeClassName="auctn_active" exact to='/passwordreset'>PasswordReset</NavLink>

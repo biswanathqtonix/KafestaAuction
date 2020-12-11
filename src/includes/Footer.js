@@ -10,7 +10,7 @@ export class Footer extends Component {
                         <div className="col-12">
                         <div className="text-center">
                             <div className="footer-logo">
-                            <a className="footer-logo__link" href="home.html"><img className="img-responsive" src="assets/media/general/logo-light.png" alt="Logo" /></a>
+                            <a className="footer-logo__link" href="home.html"><img className="img-responsive" src="/assets/media/general/logo-light.png" alt="Logo" /></a>
                             </div>
                             <ul className="footer-soc list-unstyled">
                             <li className="footer-soc__item"><a className="footer-soc__link" href="#" target="_blank"><i className="ic fab fa-twitter" /></a></li>
@@ -86,7 +86,7 @@ export class Footer extends Component {
                             <a className="footer-copyright__link" href="privacy-policy.html">Privacy Policy</a>
                         </div>
                         </div>
-                    </div><span className="footer__btn-up js-scroll-top"><i className="ic fas fa-angle-up" /><img src="assets/media/general/go_top.png" alt="go top" /></span>
+                    </div><span className="footer__btn-up js-scroll-top"><i className="ic fas fa-angle-up" /><img src="/assets/media/general/go_top.png" alt="go top" /></span>
                     </div>
                 </footer>
         )

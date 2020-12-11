@@ -63,28 +63,28 @@ export class MembershipStatus extends Component {
                             <div className="col-md-12">
                                 <h4 className="auctn_font1">Membership Upgrade</h4>
                                 <div className="row auctn_account_membershipbox">
-                                    <div className="col-md-3">
+                                    <div className="col-lg-3">
                                         <h5 className="auctn_font1 mt-5">Your Membership: Basic</h5>
                                         <p className="mt-3 auctn_account_font1">You have completed <span className="text-danger text-bold">Step1</span></p>
                                     </div>
-                                    <div className="col-md-9">
+                                    <div className="col-lg-9">
                                         <div className="row">
-                                            <div className="col-md-3 text-center auctn_account_membershipbox1">
+                                            <div className="col-md-6 col-lg-3 text-center auctn_account_membershipbox1">
                                                 <img src="https://image.autowini.com/cdn/auction/web/images/common/ico_stepC.png" alt=""/>
                                                 <p>Register for free</p>
                                             </div>
-                                            <div className="col-md-3 text-center auctn_account_membershipbox1">
+                                            <div className="col-md-6 col-lg-3 text-center auctn_account_membershipbox1">
                                                 <img src="https://image.autowini.com/cdn/auction/web/images/common/ico_stepC.png" alt=""/>
                                                 <p>ID Card Authentification</p>
                                                 <p className="auctn_btn2">Upload ID Photo</p>
                                             </div>
-                                            <div className="col-md-3 text-center auctn_account_membershipbox1">
+                                            <div className="col-md-6 col-lg-3 text-center auctn_account_membershipbox1">
                                                 <img src="https://image.autowini.com/cdn/auction/web/images/common/ico_stepC_grey.png" alt=""/>
                                                 <p>Deposit Charge</p>
                                                 <p className="auctn_btn3">Charge My Deposite</p>
 
                                             </div>
-                                            <div className="col-md-3 text-center auctn_account_membershipbox1">
+                                            <div className="col-md-6 col-lg-3 text-center auctn_account_membershipbox1">
                                                 <img src="https://image.autowini.com/cdn/auction/web/images/common/ico_stepC_grey.png" alt=""/>
                                                 <p>Premium Member</p>
                                             </div>

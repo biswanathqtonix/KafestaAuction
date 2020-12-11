@@ -18,6 +18,7 @@ import PasswordSet from './pages/PasswordSet'
 import Account from './pages/User/Account'
 import MembershipStatus from './pages/User/MembershipStatus'
 import UploadInfo from './pages/User/UploadInfo'
+import Deposit from './pages/User/Deposit'
 
 import BlankPage from './pages/BlankPage'
 
@@ -39,6 +40,8 @@ export default class App extends Component {
             <Route exact path='/account' component={Account} />
             <Route exact path='/account/membership' component={MembershipStatus} />
             <Route exact path='/account/upload' component={UploadInfo} />
+            <Route exact path='/account/deposit' component={Deposit} />
+
 
             
 

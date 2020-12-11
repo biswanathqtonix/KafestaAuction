@@ -45,14 +45,17 @@ export class UploadInfo extends Component {
                     <center>
                     <h1>Upload Your Information</h1>
                     </center>
-                    <div className="row mt-5">
-                        <div className="col-md-6">
+                    <div className="row">
+                        <div className="col-lg-6 mt-5">
                             <h4 className="auctn_account_shead auctn_font1">Upload ID Card</h4>
                             <div className="">
-                                    <p className="auctn_attentn"><img src="https://image.autowini.com/cdn/auction/web/images/content/ico_tip_red.png" alt=""/> Attention</p>
+                                <p className="auctn_attentn"><img src="https://image.autowini.com/cdn/auction/web/images/content/ico_tip_red.png" alt=""/> Attention</p>
+                                <div className="lh2">
                                     <p>- Auctionwini only accept formal ID card issued by government</p>
                                     <p>- ID must include an image of your face.</p>
                                     <p>- We recommend uploading a passport or driver's license.</p>
+                                </div>
+                                    
                             </div>
                             <div className="auctn_upload_box">
                                 <p>
@@ -66,7 +69,7 @@ export class UploadInfo extends Component {
 
 
                         </div>
-                        <div className="col-md-6">
+                        <div className="col-lg-6 mt-5">
                             <h4 className="auctn_account_shead auctn_font1">Detail Information<span>Please fill in your physical address.</span></h4>
                             <form>
                             <div className="form-group">
@@ -75,11 +78,11 @@ export class UploadInfo extends Component {
                             </div>
                             <div className="form-group">
                                 <label>Physical Address</label>
-                                <textarea cols="30" rows="4" className="form-control"></textarea>
+                                <textarea cols="30" rows="2" className="form-control"></textarea>
                             </div>
                             <div className="form-group">
                                 <label>Consignee Information</label>
-                                <textarea cols="30" rows="5" className="form-control"></textarea>
+                                <textarea cols="30" rows="4" className="form-control"></textarea>
                             </div>
                             <button type="submit" className="btn btn-primary auctn_mainbutton">Update</button>
                             </form>

@@ -47,8 +47,8 @@ export class Account extends Component {
                     <center>
                     <h1>My Information</h1>
                     </center>
-                    <div className="row mt-5">
-                        <div className="col-md-6">
+                    <div className="row">
+                        <div className="col-lg-6">
                             <h4 className="auctn_account_shead auctn_font1">Basic <span>Required Information</span></h4>
                         
                             <form>
@@ -78,7 +78,7 @@ export class Account extends Component {
 
 
                         </div>
-                        <div className="col-md-6">
+                        <div className="col-lg-6 mt-5">
                             <h4 className="auctn_account_shead auctn_font1">Detail Information <span>Membership Upgrade Information</span></h4>
                             <form>
                             <div className="form-group">
