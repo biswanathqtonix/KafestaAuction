@@ -7,6 +7,7 @@ import LoadAllJS from '../../includes/LoadAllJS'
 import loadjs from 'loadjs';
 import Footer from '../../includes/Footer'
 import BreadCrumb from '../../includes/BreadCrumb'
+import ShowContact1 from '../../components/User/ShowContact1'
 
 export class MembershipStatus extends Component {
 
@@ -124,8 +125,7 @@ export class MembershipStatus extends Component {
 
                                     </div>
                                     <div className="col-md-4">
-                                    <h6 className="auctn_plan_h">Contact Us</h6>
-                                    <p>inquiry@auctionwini.com</p>
+                                        <ShowContact1 />
                                     </div>
                                 </div>
                             </div>

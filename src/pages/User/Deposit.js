@@ -7,6 +7,7 @@ import LoadAllJS from '../../includes/LoadAllJS'
 import loadjs from 'loadjs';
 import Footer from '../../includes/Footer'
 import BreadCrumb from '../../includes/BreadCrumb'
+import ShowContact1 from '../../components/User/ShowContact1'
 
 export class Deposit extends Component {
     componentDidMount(){
@@ -128,6 +129,11 @@ export class Deposit extends Component {
                                                 </div>
                                                 <hr/>
                                                 <p>Required Amount <span className="auctn_font3 float-right">USD 300</span></p>
+                                            </div>
+                                            <div className="card-body p-5  auctn_mt-4">
+
+                                                <ShowContact1 />
+
                                             </div>
                                         </div>
                                     </div>
