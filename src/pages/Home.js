@@ -62,7 +62,21 @@ export class Home extends Component {
                 <div className="main-slider slider-pro" id="main-slider" data-slider-width="100%" data-slider-height="700px" data-slider-arrows="false" data-slider-buttons="false">
                     <div className="sp-slides">
                     {/* Slide 1*/}
-                    <div className="main-slider__slide sp-slide"><img className="sp-image" src="https://pro-theme.com/html/revus/assets/media/content/b-main-slider/bg-1.jpg" alt="slider" />
+                    <div className="main-slider__slide sp-slide"><img className="sp-image" src="https://pro-theme.com/html/revus/assets/media/content/b-main-slider/bg-2.jpg" alt="slider" />
+                        <div className="sp-layer" data-width="100%" data-show-transition="left" data-hide-transition="left" data-show-duration={800} data-show-delay={400} data-hide-delay={400}>
+                        <div className="main-slider__wrap">
+                            <div className="main-slider__slogan">expert auto services</div>
+                            <div className="main-slider__title">Premium
+                            <br />Cars Dealers</div>
+                            <div className="text-right"><a className="main-slider__link" href="blog-post.html">learn more</a></div>
+                        </div>
+                        </div>
+                        <div className="sp-layer" data-width="100%" data-show-transition="left" data-hide-transition="left" data-show-duration={1500} data-show-delay={800} data-hide-delay={400}><img className="main-slider__figure-1 img-fluid" src="https://pro-theme.com/html/revus/assets/media/content/b-main-slider/bg-2_item-1.png" alt="foto" /></div>
+                        <div className="sp-layer" data-width="100%" data-show-transition="right" data-hide-transition="right" data-show-duration={2000} data-show-delay={1200} data-hide-delay={400}><img className="main-slider__figure-2 img-fluid" src="https://pro-theme.com/html/revus/assets/media/content/b-main-slider/bg-2_item-2.png" alt="foto" /></div>
+                    </div>
+
+                    
+                    <div className="main-slider__slide-2 sp-slide"><img className="sp-image" src="https://pro-theme.com/html/revus/assets/media/content/b-main-slider/bg-1.jpg" alt="slider" />
                         <div className="sp-layer" data-width="100%" data-show-transition="left" data-hide-transition="left" data-show-duration={800} data-show-delay={400} data-hide-delay={400}>
                         <div className="main-slider__wrap">
                             <div className="main-slider__slogan">luxury unleashed</div>
@@ -76,18 +90,7 @@ export class Home extends Component {
                         </div>
                     </div>
                     {/* Slide 2*/}
-                    <div className="main-slider__slide-2 sp-slide"><img className="sp-image" src="assets/media/content/b-main-slider/bg-2.jpg" alt="slider" />
-                        <div className="sp-layer" data-width="100%" data-show-transition="left" data-hide-transition="left" data-show-duration={800} data-show-delay={400} data-hide-delay={400}>
-                        <div className="main-slider__wrap">
-                            <div className="main-slider__slogan">expert auto services</div>
-                            <div className="main-slider__title">Premium
-                            <br />Cars Dealers</div>
-                            <div className="text-right"><a className="main-slider__link" href="blog-post.html">learn more</a></div>
-                        </div>
-                        </div>
-                        <div className="sp-layer" data-width="100%" data-show-transition="left" data-hide-transition="left" data-show-duration={1500} data-show-delay={800} data-hide-delay={400}><img className="main-slider__figure-1 img-fluid" src="assets/media/content/b-main-slider/bg-2_item-1.png" alt="foto" /></div>
-                        <div className="sp-layer" data-width="100%" data-show-transition="right" data-hide-transition="right" data-show-duration={2000} data-show-delay={1200} data-hide-delay={400}><img className="main-slider__figure-2 img-fluid" src="assets/media/content/b-main-slider/bg-2_item-2.png" alt="foto" /></div>
-                    </div>
+                    
                     </div>
                 </div>
                 {/* end .main-slider*/}
